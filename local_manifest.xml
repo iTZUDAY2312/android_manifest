@@ -5,7 +5,6 @@
    
        <!-- (Userdata) -->
         <remote  name="ub" fetch="https://github.com/iTZUDAY2312" />
-        <remote  name="av" fetch="https://github.com/rayavanindra" />
        <!-- (Clang) --> 
         <remote name="clang" fetch="https://github.com/kdrag0n" />
         <remote name="aro" fetch="https://github.com/ArrowOS-Devices" />
@@ -18,6 +17,7 @@
   
    
   <!--[ Remove HALs ]-->
+           <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
      <!--  <remove-project name="RiceDroid/android_frameworks_base" />
            <remove-project name="LineageOS/android_vendor_lineage" / >
            <remove-project name="LineageOS/android_system_core" />     -->
@@ -27,18 +27,18 @@
    
            <!-- (Device Trees) -->
              <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="ub" revision="LOS" />
-             <project path="device/xiaomi/sm6250-common" name="device_xiaomi_sm6250-common" remote="ub" revision="rice" />
+             <project path="device/xiaomi/sm6250-common" name="device_xiaomi_sm6250-common" remote="ub" revision="LOS13-wip" />
   
            <!-- (Vendor Trees) -->
-             <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="av" revision="13" />
-             <project path="vendor/xiaomi/sm6250-common" name="vendor_xiaomi_sm6250-common" remote="av" revision="13" />
+             <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="ub" revision="13-wip" />
+             <project path="vendor/xiaomi/sm6250-common" name="vendor_xiaomi_sm6250-common" remote="ub" revision="13-wip" />
        
            <!--(Kernel Trees)-->
-             <project path="kernel/xiaomi/sm6250" name="dfc_kernel_sm6250" remote="ub" revision="13-kcal" />
+             <project path="kernel/xiaomi/sm6250" name="dfc_kernel_sm6250" remote="ub" revision="13-kcal" clone-depth="1" />
    
 
  <!--[ Adding Resources ]-->
-         
+        <project path="packages/apps/crDroidSettings" name="packages_apps_crDroidSettings" remote="ub" revision="13.0" /> 
       <!-- (System)  -->    
    <!-- <project path="hardware/xiaomi" name="hardware_xiaomi" remote="los" revision="lineage-19.1" />
         <project path="frameworks/base" name="android_frameworks_base" remote="ub" revision="twelve" />
