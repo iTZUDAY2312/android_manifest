@@ -34,7 +34,7 @@
              <project path="vendor/xiaomi/sm6250-common" name="vendor_xiaomi_sm6250-common" remote="ub" revision="13-wip" />
        
            <!--(Kernel Trees)-->
-             <project path="kernel/xiaomi/sm6250" name="dfc_kernel_sm6250" remote="ub" revision="13-kcal" clone-depth="1" />
+             <project path="kernel/xiaomi/sm6250" name="dfc_kernel_sm6250" remote="ub" revision="13-v2" clone-depth="1" />
    
 
  <!--[ Adding Resources ]-->
