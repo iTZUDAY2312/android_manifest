@@ -25,15 +25,15 @@
   <!-- [ Trees ] --> 
    
            <!-- (Device Trees) -->
-             <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="ub" revision="LOS-19.1" />
-             <project path="device/xiaomi/sm6250-common" name="device_xiaomi_sm6250-common" remote="ub" revision="12L" />
+             <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="ub" revision="LOS" />
+             <project path="device/xiaomi/sm6250-common" name="device_xiaomi_sm6250-common" remote="ub" revision="CR-12" />
   
            <!-- (Vendor Trees) -->
              <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="ub" revision="12" />
              <project path="vendor/xiaomi/sm6250-common" name="vendor_xiaomi_sm6250-common" remote="ub" revision="12" />
        
            <!--(Kernel Trees)-->
-             <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" remote="ub" revision="12" />
+             <project path="kernel/xiaomi/sm6250" name="dfc_kernel_sm6250" remote="ub" revision="12-kcal" />
    
 
  <!--[ Adding Resources ]-->
