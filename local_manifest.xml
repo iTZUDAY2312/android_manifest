@@ -7,40 +7,14 @@
         <remote  name="ub" fetch="https://github.com/iTZUDAY2312" />
        <!-- (Clang) --> 
         <remote name="clang" fetch="https://github.com/kdrag0n" />
-        <remote name="aro" fetch="https://github.com/ArrowOS-Devices" />
-        <remote name="arw" fetch="https://gitlab.com/arrowos-project" />
-        <!-- (ROM Source) --> 
-        <remote  name="los" fetch="https://github.com/LineageOS" />
-        <remote  name="evo" fetch="https://github.com/Evolution-X" />
-        <remote  name="riced" fetch="https://github.com/RiceDroid" />
-        
-  
-   
-  <!--[ Remove HALs ]-->
-     <!--  <remove-project name="RiceDroid/android_frameworks_base" />
-           <remove-project name="LineageOS/android_vendor_lineage" / >
-           <remove-project name="LineageOS/android_system_core" />     -->
-                    
-                  
+                                  
   <!-- [ Trees ] --> 
    
            <!-- (Trees) -->
-             <project path="device/xiaomi/cereus" name="device_xiaomi_cereus" remote="ub" revision="pie" />
+             <project path="device/xiaomi/cereus" name="device_xiaomi_cereus" remote="ub" revision="test" />
              <project path="vendor/xiaomi/cereus" name="vendor_xiaomi_cereus" remote="ub" revision="pie"/>
    
-
- <!--[ Adding Resources ]-->
-         
-      <!-- (System)  -->    
-   <!-- <project path="hardware/xiaomi" name="hardware_xiaomi" remote="los" revision="lineage-19.1" />
-        <project path="frameworks/base" name="android_frameworks_base" remote="ub" revision="twelve" />
-        <project path="system/core" name="android_system_core" remote="ub" revision="lineage-19.1" /> 
-        <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="aro" revision="arrow-12.1" /> -->
-     
    <!-- (Clang) -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arw" revision="master" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="aro" revision="arrow-11.0" />
-   
-</manifest>
 
+</manifest>
