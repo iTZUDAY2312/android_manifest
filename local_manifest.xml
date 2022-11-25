@@ -13,7 +13,8 @@
            <!-- (Trees) -->
              <project path="device/xiaomi/cereus" name="device_xiaomi_cereus" remote="ub" revision="test" />
              <project path="vendor/xiaomi/cereus" name="vendor_xiaomi_cereus" remote="ub" revision="pie"/>
-   
+   <!-- [ Sepolicy ] --> 
+              <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="ub" revision="12.1" />
    <!-- (Clang) -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 
